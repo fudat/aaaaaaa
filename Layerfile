@@ -39,3 +39,4 @@ RUN echo "ALLOWED_HOSTS = ['localhost']" >> settings.py
 # Start the server
 RUN BACKGROUND python3 ./main.py web
 EXPOSE WEBSITE localhost:8080
+
